@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+/*@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}*/
+
+.App-header {
+  background-color: #39364d;
+  /*min-height: 100vh;*/
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+main {
+  margin: 0 auto;
+  height: 60vh;
+  background-color: #f2f9fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.Chat-block-box {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  /*background-color: orange;*/
+  display: flex;
+  justify-content: space-between;
+}
+
+.Chat-list-block {
+  width: 40%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background-color: #f7f9fc;
+  /*background-color: #f7f9fc;*/
+  /*background-color: orchid;*/
+}
+
+.Chat-list-box {
+  margin: 0 auto;
+  width: 100%;
+  height: 98%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  /*background-color: yellowgreen;*/
+}
+
+.Chat-list-form {
+  margin: 0 auto;
+  width: 100%;
+  height: 10%;
+  position: sticky;
+}
+
+.Messages-block {
+  margin: 0 auto;
+  width: 60%;
+  height: 98%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.Message-list-block {
+  margin: 0 auto;
+  width: 100%;
+  height: 90%;
+  overflow-y: scroll;
+}
+
+.Message-form-block {
+  width: 100%;
+  height: 10%;
+  position: sticky;
+}
+
+.Message-block {
+  margin: 0 auto;
+  width: 50%;
+  /*background-color: orange;*/
+  display: flex;
+  justify-content: center;
+}
+
+.App-footer {
+  background-color: #39364d;
+  /*min-height: 100vh;*/
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
